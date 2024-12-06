@@ -1,15 +1,41 @@
 # 🎬 Movie Recommendation System
 
 A python collaborative movie recommendation system with a simple web interface. This project uses Flask for the backend, integrates with the OMDb API for movie data, and leverages Bootstrap for responsive design. Users can enjoy browsing trending movies and personalized recommendations with an intuitive interface.
+## Data Set
+Get the data set  here - [Data]([https://getbootstrap.com/](https://www.youtube.com/redirect?event=video_description&redir_token=QUFFLUhqbkw1cVA5dGw1SE1MQU95cDAtdjdDVG9rQ1hIUXxBQ3Jtc0tsSGEwbU85cVZTVEh4UWM4Vjd2MUljR0pyODhvaVBsSjFEUXladlRaOENsQklhY29NWFdhLUM2YjRuTlZkaXpTcnZaZ3FGcnFyanc4enhLSmFZcjFwVlJBc2x4ejZXQ21FTWdWWHZvVHlwam1ZS2lzaw&q=https%3A%2F%2Ffiles.grouplens.org%2Fdatasets%2Fmovielens%2Fml-25m.zip&v=eyEabQRBMQA))
 
 ## 🚀 Features
 
-- **Personalized Recommendations**: Get movie recommendations based on a specific user ID.
-- **Trending Movies Section**: Displays a curated list of trending movies fetched from the OMDb API.
-- **Search Functionality**: Search for movies by title.
-- **Video Previews**: Watch trailers of selected movies directly on the page.
-- **Modern UI**: Aesthetic design with a dynamic background, card-style layouts, and responsive components.
-- **Interactive Navigation**: Easily switch between pages and explore movie details.
+- **Personalized Recommendations**:  
+  - Generate movie recommendations based on user profiles using cosine similarity between user preferences and movie genres.
+  - Supports collaborative filtering to recommend movies based on similar users' preferences.
+
+- **Data Cleaning and Preprocessing**:  
+  - Automatically drops unnecessary columns (e.g., timestamps) from the dataset.
+  - Cleans movie titles by removing special characters and noise.
+  - Splits genres into one-hot encoded columns for efficient processing and comparison.
+
+- **User Profile Generation**:  
+  - Builds a user profile based on their movie ratings, weighting genres by the rating provided.
+  - Aggregates a user's genre preferences into a weighted profile for better accuracy in recommendations.
+
+- **Genre-Based Recommendations**:  
+  - Uses cosine similarity to match a user's profile to movies based on genre attributes.
+  - Outputs a ranked list of recommended movies along with their similarity scores.
+
+- **Collaborative Filtering**:  
+  - Identifies similar users based on shared high ratings for movies.
+  - Recommends movies highly rated by these similar users, ensuring they aren't movies the target user has already rated.
+  - Incorporates popularity scoring for recommendations based on the number of similar users who liked the movies.
+
+- **Interactive Interface**:  
+  - Browse trending movies and recommendations through a dynamic web UI built with Flask and Bootstrap.
+  - Includes features such as searching for movies by title and viewing trailers.
+
+- **Extensibility**:  
+  - Ready for integrating more advanced algorithms, such as deep learning-based recommendation systems.
+  - Flexible data pipeline that can handle large datasets like the MovieLens 25M dataset.
+
 
 ## 🛠️ Installation & Setup
 

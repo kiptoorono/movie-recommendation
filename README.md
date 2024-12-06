@@ -21,12 +21,12 @@ A python collaborative movie recommendation system with a simple web interface. 
 2. **Install Dependencies:**
    ```bash
    pip install -r requirements.txt
-3. **Set up the OMDb API key:**
+4. **Set up the OMDb API key:**
 
 - Obtain an API key from OMDb API.
 - Replace YOUR_API_KEY in app.py with your actual key.
 4. **Run the flask app**
-   ```bash
+  ```bash
   flask run
 5. **Run and interact with the recommendation Engine**
 

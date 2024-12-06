@@ -29,7 +29,8 @@ A python collaborative movie recommendation system with a simple web interface. 
   ```bash
   flask run
 5. **Run and interact with the recommendation Engine
--** the actual recommendation engine is in the recommender.ipynb jupyter notebook
+ -** the actual recommendation engine is in the recommender.ipynb jupyter notebook
+
 ## 📜 Usage
 
 ### Homepage

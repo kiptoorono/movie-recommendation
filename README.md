@@ -25,12 +25,12 @@ A python collaborative movie recommendation system with a simple web interface. 
 
 - Obtain an API key from OMDb API.
 - Replace YOUR_API_KEY in app.py with your actual key.
-4. ** Run the flask app
+4. **Run the flask app
    ```bash
   flask run
 5. **Run and interact with the recommendation Engine
 
--the actual recommendation engine is in the recommender.ipynb jupyter notebook
+- The actual recommendation engine is in the recommender.ipynb jupyter notebook
 
 ## 📜 Usage
 

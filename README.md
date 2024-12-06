@@ -2,8 +2,7 @@
 
 A python collaborative movie recommendation system with a simple web interface. This project uses Flask for the backend, integrates with the OMDb API for movie data, and leverages Bootstrap for responsive design. Users can enjoy browsing trending movies and personalized recommendations with an intuitive interface.
 ## Data Set
-Get the data set  here - [Data]([https://getbootstrap.com/](https://www.youtube.com/redirect?event=video_description&redir_token=QUFFLUhqbkw1cVA5dGw1SE1MQU95cDAtdjdDVG9rQ1hIUXxBQ3Jtc0tsSGEwbU85cVZTVEh4UWM4Vjd2MUljR0pyODhvaVBsSjFEUXladlRaOENsQklhY29NWFdhLUM2YjRuTlZkaXpTcnZaZ3FGcnFyanc4enhLSmFZcjFwVlJBc2x4ejZXQ21FTWdWWHZvVHlwam1ZS2lzaw&q=https%3A%2F%2Ffiles.grouplens.org%2Fdatasets%2Fmovielens%2Fml-25m.zip&v=eyEabQRBMQA))
-
+Get the data set  here [MovieLens 25M Dataset](https://files.grouplens.org/datasets/movielens/ml-25m.zip)
 ## 🚀 Features
 
 - **Personalized Recommendations**:  
